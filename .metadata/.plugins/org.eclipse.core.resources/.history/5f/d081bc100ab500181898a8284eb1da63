@@ -1,0 +1,16 @@
+package com.spring.dao;
+
+import com.spring.entity.Product;
+
+public class ProductDAO {
+
+	Product product= new Product();
+	
+	public Product findProduct(String code){
+		
+		return product;
+	}
+	
+}
+
+
